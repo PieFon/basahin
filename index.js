@@ -43,7 +43,11 @@ inquirer
         },
                 
     ])
+<<<<<<< HEAD
     .then(answers => {
+=======
+    .then(answers) => {
+>>>>>>> main
         console.log(answers)
         const markdownOutput = `generateMarkdown.js`
         console.log(markdownOutput);
@@ -54,7 +58,11 @@ inquirer
                 console.log("markdown done!")
             }
             
+<<<<<<< HEAD
     });
+=======
+    };
+>>>>>>> main
 
 
 // TODO: Create a function to write README file
